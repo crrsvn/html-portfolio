@@ -1,158 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/logo.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Savohi</title>
-</head>
-
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio Cristian</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-            <img src="assets/logo.png">
-            <a href="https://savohi.com">Savohi</a>
-        </div>
-        <ul>
-            <li><a href="#main">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+      <div class="logo-slogan">
+        <h3>@crrsvn</h3>
+      </div>
+      <div class="link-div">
+        <ul class="links">
+          <li class="links"><a href="#home">Home</a></li>
+          <li class="links"><a href="#portfolio">Portfolio</a></li>
+          <li class="links"><a href="#skill">Skills</a></li>
         </ul>
-        <button>Contact Me</button>
-        <button id="menuButton" onclick="openMenu()">
-            <i class='bx bx-menu'></i>
-        </button>
+      </div>
+      <div class="btn-div">
+        <button id="btn1">Contact Me</button>
+      </div>
     </nav>
 
-    <div class="main" id="main">
-        <div class="left">
-            <h5>Welcome to Savohi.com</h5>
-            <h3>Discover Excellence in <span>Digital Solutions</span>.</h3>
-            <p>
-                As a full-stack web developer, I specialize in creating dynamic and interactive websites.
-            </p>
-            <button>Contact Me</button>
-        </div>
+    <br />
+
+    <main id="home">
+      <aside>
+        <h2>Hi there! I'm <span>Cristian</span> .</h2>
+        <p>
+          As a Full Stack Web Developer, I specialize in creating dynamic and
+          interactive websites.
+        </p>
+        <img src="images/vsx.png" />
+      </aside>
+    </main>
+
+    <div id="skill">
+      <br />
+    </div>
+    <div class="skill">
+      <div class="skills">
+        <i class="bi bi-window-sidebar"></i>
+        <h3>Web Design</h3>
+        
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quibusdam
+          minus eius sint sed ex culpa quas, molestiae distinctio at? Aperiam
+          minus odio commodi repellendus doloribus rem voluptas voluptatum
+          
+        </p>
+      </div>
+      <div class="skills">
+        <i class="bi bi-code-slash"></i>
+        <h3>Web Development</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quibusdam
+          minus eius sint sed ex culpa quas, molestiae distinctio at? Aperiam
+          minus odio commodi repellendus doloribus rem voluptas voluptatum
+          
+        </p>
+      </div>
+      <div class="skills">
+        <i class="bi bi-gear"></i>
+        <h3>Software Engineering</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quibusdam
+          minus eius sint sed ex culpa quas, molestiae distinctio at? Aperiam
+          minus odio commodi repellendus doloribus rem voluptas voluptatum
+          
+        </p>
+      </div>
     </div>
 
-    <div class="skills" id="skills">
-        <h5>My Skills</h5>
-        <h3>My Expertise</h3>
-        <div class="skill-items">
-            <div class="item">
-                <div class="icon"><i class='bx bx-directions'></i></div>
-                <h4>Marketing</h4>
-                <p>
-                    Marketing is important...
-but there are already 101 things on your to-do list. 
-And they are all important too!
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
-                <h4>Branding & Logo</h4>
-                <p>
-                   A succinct message encapsulates identity, evokes emotion, and fosters brand recognition, crucial for business success.
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"><i class='bx bxl-figma'></i></i></div>
-                <h4>UI & UX Design</h4>
-                <p>
-                    Harmonizing design and functionality elevates user satisfaction, fuels engagement, and fosters business triumph via exceptional digital experiences.
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
-                <h4>Webflow Coding</h4>
-                <p>
-                    As a full-stack web developer, I specialize in creating dynamic and interactive websites.
-                
-                </p>
-            </div>
-        </div>
+    <div id="portfolio">
+      <br />
     </div>
 
-    <br>
-
-    <div class="portfolio" id="portfolio">
-        <div class="header">
-            <div class="info">
-                <h5>Recent Projects</h5>
-                <h3>My Portfolio</h3>
-            </div> 
-
-        </div>
-
-        <div class="portfo-items">
-            <div class="item">
-                <img src="assets/sc-1.jpg">
-                <div class="info">
-                    <h4>SOON...</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
-                    </p>
-                   
-                </div>
-            </div>
-            <div class="item">
-                <img src="assets/sc-2.jpg">
-                <div class="info">
-                    <h4>SOOON...</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
-                    </p>
-                   
-                </div>
-            </div>
-            <div class="item">
-                <img src="assets/sc-3.jpg">
-                <div class="info">
-                    <h4>SOON...</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
-                    </p>
-                  
-                </div>
-            </div>
-        </div>
-
+    <div class="portfolio">
+      <div class="project">
+        <h3>Project <span>#1</span></h3>
+        <img src="images/vsx.png" width="290px" alt="View Project" />
+        <p>
+          A succinct message encapsulates identity, evokes emotion, and fosters
+          brand recognition, crucial for business success.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Project <span>#2</span></h3>
+        <img src="images/vsx.png" width="290px" alt="View Project" />
+        <p>
+          A succinct message encapsulates identity, evokes emotion, and fosters
+          brand recognition, crucial for business success.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Project <span>#3</span></h3>
+        <img src="images/vsx.png" width="290px" alt="View Project" />
+        <p>
+          A succinct message encapsulates identity, evokes emotion, and fosters
+          brand recognition, crucial for business success.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Project <span>#4</span></h3>
+        <img src="images/vsx.png" width="290px" alt="View Project" />
+        <p>
+          A succinct message encapsulates identity, evokes emotion, and fosters
+          brand recognition, crucial for business success.
+        </p>
+      </div>
     </div>
 
-    
+    <div id="sps">
+      <br />
+    </div>
+
+    <hr class="hrlast" />
 
     <footer>
-        <div class="top">
-            <div class="logo">
-                <img src="assets/logo.png">
-                <a href="#">CristianDEV</a>
-            </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Projects</a></li>
-            </ul>
-            <div class="social-links">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-            </div>
+      <div class="text">
+        <h2>© 2024 | Cristian Savin</h2>
+      </div>
+      <div class="foot">
+        <ul class="icons">
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-github"></i>
+          <i class="bi bi-linkedin"></i>
+        </ul>
+          
         </div>
-        <div class="separator"></div>
-        <div class="bottom">
-            <p>
-                © 2024 Cristian Dev.
-            </p>
-            <div class="links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-            </div>
-        </div>
+      </div>
     </footer>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
